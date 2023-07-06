@@ -1,10 +1,10 @@
-配置：
+1.配置：
     name:
         git config --global user.name "lianxiaojie"
     email:
         git config --global user.email "xxx@foxmail.com"
 
-使用git：
+2.使用git：
     git status 
         - 查看当前仓库状态
     git init
@@ -19,3 +19,7 @@
             git commit -a -m "xxxxx" 提交所有已修改的文件 （未跟踪的文件不会提交）
         未修改 --> 已修改
             修改代码后状态改变
+
+3.常用的命令
+    git restore <filename> 重置文件
+    git rm <filename> 删除文件
