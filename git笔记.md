@@ -1,10 +1,12 @@
 1.配置：
+
     name:
         git config --global user.name "lianxiaojie"
     email:
         git config --global user.email "xxx@foxmail.com"
 
 2.使用git：
+
     git status 
         - 查看当前仓库状态
     git init
@@ -21,5 +23,14 @@
             修改代码后状态改变
 
 3.常用的命令
-    git restore <filename> 重置文件
+
+    1.重置文件
+    git restore <filename> 恢复文件
+    git restore --staged <filename> 取消暂存状态
+
+    2.删除文件
     git rm <filename> 删除文件
+    git rm <filename> -f  强制删除
+
+    3.移动文件
+    git mv from to  移动文件/重命名文件
